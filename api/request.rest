@@ -1,0 +1,15 @@
+get http://localhost:3000/todos
+
+###
+POST http://localhost:3000/todos/new
+Content-Type: application/json
+
+{
+    "text" : "motton1"
+}
+
+###
+DELETE http://localhost:3000/todos/delete/64222b0b2b5d5e20b57b88e7
+
+###
+PUT http://localhost:3000/todos/complete/64222ad52b5d5e20b57b88e4
